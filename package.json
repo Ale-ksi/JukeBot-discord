@@ -21,14 +21,5 @@
   },
   "scipt": {
     "start": "node index.js"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ale-ksi/JukeBot-discord.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Ale-ksi/JukeBot-discord/issues"
-  },
-  "homepage": "https://github.com/Ale-ksi/JukeBot-discord#readme"
+  }
 }
