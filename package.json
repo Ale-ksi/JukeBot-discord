@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Music bot from RIVAL games",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Alexis",
   "license": "ISC",
+  "engines": {
+    "node": "14.16.1"
+  },
   "dependencies": {
     "@discordjs/opus": "github:discordjs/opus",
     "discord.js": "^12.5.3",
@@ -19,7 +19,7 @@
     "ytdl-core": "^4.5.0",
     "ytdl-core-discord": "^1.3.0"
   },
-  "scipt": {
+  "scripts": {
     "start": "node index.js"
   }
 }
