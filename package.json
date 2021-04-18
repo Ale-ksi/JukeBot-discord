@@ -5,9 +5,6 @@
   "main": "index.js",
   "author": "Alexis",
   "license": "ISC",
-  "engines": {
-    "node": "14.16.1"
-  },
   "dependencies": {
     "@discordjs/opus": "github:discordjs/opus",
     "discord.js": "^12.5.3",
@@ -21,5 +18,15 @@
   },
   "scripts": {
     "start": "node index.js"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ale-ksi/JukeBot-discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ale-ksi/JukeBot-discord/issues"
+  },
+  "homepage": "https://github.com/Ale-ksi/JukeBot-discord#readme"
 }
+
