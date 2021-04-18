@@ -21,21 +21,21 @@ client.on("message", async message => {
     if (message.author.bot) {
         return;
     }
-    if (!message.content.startsWith(prefix)) {
+    if (!message.content.startsWith(process.env.PREFIX)) {
         return;
     }
 
     const serverQueue = queue.get(message.guild.id);
 
-    if (message.content.startsWith(`${prefix}play`)) {
+    if (message.content.startsWith(`${process.env.PREFIX}play`)) {
         execute(message, serverQueue); // On appel execute qui soit initialise et lance la musique soit ajoute à la queue la musique
         return;
     }
-    else if (message.content.startsWith(`${prefix}skip`)) {
+    else if (message.content.startsWith(`${process.env.PREFIX}skip`)) {
         skip(message, serverQueue); // Permettra de passer à la musique suivante
         return;
     }
-    else if (message.content.startsWith(`${prefix}stop`)) {
+    else if (message.content.startsWith(`${process.env.PREFIX}stop`)) {
         stop(message, serverQueue); // Permettra de stopper la lecture
         return;
     }
