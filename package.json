@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Alexis",
   "license": "ISC",
+  "node-pre-gyp": "^0.16.0",
   "dependencies": {
     "@discordjs/opus": "github:discordjs/opus",
     "discord.js": "^12.5.3",
