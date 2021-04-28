@@ -1,9 +1,5 @@
 {
   "name": "jukebot",
-     "engines": {
--    "node": "8.1.4"
-+    "node": "11.10.0"
-     },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
